@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Melee South America League</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
@@ -13,55 +17,46 @@
 </head>
 <body>
     
-    <header class="header">
-
-        <a href="#">
-            <div class="header-logo">
-                <img src="assets/logo-header.png" alt="">
+    <div class="container">
+        <header class="header">
+            <input type="checkbox" id="toggler">
+            <label for="toggler"><span>MENU</span></i></label>
+            <div class="header__logo">
+                <a href="#"><img src="assets/logo-header.png" alt="Logo da MSAL."></a>
             </div>
-        </a>
-
-        <div class="text-links text">
-            <a class="title-text" href="">MORDHAU</a>
-            <a class="title-text" href="">WARBAND</a>
-            <a class="title-text" href="">CHIVALRY</a>
-        </div>
-
-    </header>
-
-    <main class="main">
-
-            <div class="logo-main"><img src="assets/logo-main.png" alt=""></div>
-
-            <div class="title-intro">
-
-                <h1 class="text title-text intro">Bem-vindo à Melee South America League</h1>
-
-                <h2 class="text intro small-text">a primeira organização de eventos melee slasher da região sul-americana</h2>
-
+            <div class="header__menu">
+                <ul class="header__list">
+                    <li><a class="title-text" href="">MORDHAU</a></li>
+                    <li><a class="title-text" href="">WARBAND</a></li>
+                    <li><a class="title-text" href="">CHIVALRY</a></li>
+                </ul>
             </div>
-
-            <div class="text-box-main">
-
-                <p class="text intro medium-text">
-                Organização destinada a realizar os melhores e mais competitivos eventos nos jogos melee slashers
-                    <br><br>
-                Somos movidos pelo sangue e suor dos competidores e suas épicas jornadas ao topo, e hoje, depois de dois anos com eventos de sucesso no Mordhau, expandimos nossos horizontes para os demais jogos do gênero.
-            </p>
-
-            </div>
-
-    </main>
-
-    <footer class="footer">
-
-            <a href=""><img src="assets/twitter-logo.png" alt="ícone do Twitter."></a>
-
-            <a href=""><img src="assets/discord-logo.png" alt="Ícone do Discord."></a>
-
-            <a href=""><img src="assets/twitch-logo.png" alt="Ícone da Twitch."></a>
-
-    </footer>
+        </header>
+        <main class="main">
+                <div class="logo__main"><img src="assets/logo-main.png" alt=""></div>
+                <div class="title-intro">
+                    <h1 class="text title-text intro">Bem-vindo à Melee South America League</h1>
+                    <h2 class="text intro small-text">a primeira organização de eventos melee slasher da região sul-americana</h2>
+                </div>
+                <div class="text-box-main">
+                    <p class="intro medium-text">
+                    Organização destinada a realizar os melhores e mais competitivos eventos nos jogos melee slashers
+                    </p>
+                    
+                    <p class="intro medium-text">
+                    Somos movidos pelo sangue e suor dos competidores e suas épicas jornadas ao topo, e hoje, depois de dois anos com eventos de sucesso no Mordhau, expandimos nossos horizontes para os demais jogos do gênero.
+                    </p>
+                </p>
+                </div>
+        </main>
+        <footer class="footer">
+                <div class="footer__links">
+                    <a href=""><img src="assets/twitter-logo.png" alt="ícone do Twitter."></a>
+                    <a href=""><img src="assets/discord-logo.png" alt="Ícone do Discord."></a>
+                    <a href=""><img src="assets/twitch-logo.png" alt="Ícone da Twitch."></a>
+                </div>
+        </footer>
+    </div>
 
 </body>
 </html>
