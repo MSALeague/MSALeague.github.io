@@ -1,0 +1,16 @@
+@media screen and (min-width: 1000px) {
+
+    .main {
+        background-image: url(assets/bg-mordhau.png);
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .main {
+        background-image: url(assets/bg-mordhau.png);
+        background-position: 20%;
+    }
+
+}

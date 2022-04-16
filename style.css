@@ -1,7 +1,7 @@
 :root {
     --text-color: white;
     --primary-color: #6C757D;
-    --accent-color: #4A5156;
+    --accent-color: #495057;
     --text-font: 'Rubik', sans-serif;
 }
 
@@ -34,11 +34,11 @@
     text-shadow: 5px 6px 5px black;
 }
 
-/*----------------------------------------*/
+/* ------------------- header ---------------------- */
 
 body {
     margin: 0;
-    background-color: var(--accent-color);
+    background-color: silver;
 }
 
 .container {
@@ -104,10 +104,7 @@ a:focus {
     color: var(--accent-color);
 }
 
-#toggler,
-.header label {
-    display: none;
-}
+/* ------------------- main ---------------------- */
 
 .main {
     width: 100%;
@@ -115,30 +112,11 @@ a:focus {
     flex-direction: column;
 }
 
-.logo__main {
-    margin: auto;
-    padding: 1em;
-}
-
-.title-intro {
-    margin: auto;
-    text-align: center;
-    padding: 1em;
-}
-.text-box-main {
-    padding: 0 0 2em 0;
-    margin: 3.5em auto 1em auto;
-    text-align: center;
-    max-width: 50%;
-}
-
-.text-box-main > p:last-of-type {
-    margin-bottom: 6em;
-}
+/* ------------------- footer ---------------------- */
 
 .footer {
     margin-top: 1em;
-    background: var(--primary-color);
+    background: var(--accent-color);
     display: flex;
     position: fixed;
     bottom: 0;
@@ -157,14 +135,23 @@ a:focus {
     margin-right: 3em;
 }
 
-/* responsividade -__- */
+.footer__links > a {
+    padding: .5em;
+    border-radius: .2em;
+}
+
+.footer__links > a:hover,
+.footer__links > a:focus {
+    background-color: var(--primary-color);
+}
+
+/* --------------- responsividade -__- ------------------ */
 
 @media screen and (min-width: 1000px) {
 
     .main {
         transition: 300ms;
         background-repeat: no-repeat;
-        background-image: url(assets/bg-main.png);
         background-size: cover;
         background-attachment: fixed;
     }
@@ -220,9 +207,7 @@ a:focus {
 
     .main {
         background-repeat: no-repeat;
-        background-image: url(assets/bg-main.png);
         background-size: cover;
-        background-position: 20%;
         background-attachment: fixed;
     }
 
