@@ -14,3 +14,47 @@
     }
 
 }
+
+.majors {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-top: 1em;
+}
+
+.majors__card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.arenas {
+    display: grid;
+    align-self: center;
+    gap: .5rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-top: .5em;
+    margin-bottom: 5rem;
+    max-width: 90%;
+}
+
+.arenas__card, .arenas__logo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.arenas__card > h3 {
+    margin-bottom: .5rem;
+}
+
+.arenas__card > p:last-of-type {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

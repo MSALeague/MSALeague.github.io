@@ -28,6 +28,14 @@
     font-style: italic;
     margin: 0;
 }
+.smaller-text {
+    font-family: var(--text-font);
+    color: var(--text-color);
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-style: italic;
+    margin: 0;
+}
 .intro {
     -webkit-text-stroke: 1px black;
     -moz-text-stroke: 1px black;
@@ -222,6 +230,7 @@ a:focus {
 
     .footer__links {
         width: 100%;
+        margin: 0;
     }
 
 }
